@@ -1,0 +1,48 @@
+const marks=71;
+let grade;
+
+if(marks>=90)
+{
+grade='A grade'}
+else if(marks>=70&&marks<=90){
+grade='B grade'
+}
+else if(marks>=50&&marks<70)
+{
+grade='C grade'}
+else{
+grade='F grade';}
+
+
+console.log(`your grade id:${grade}`}
+-----------------------------------------------------------------------------
+
+
+const num1=10;
+const num2=25;
+
+for(let i =num+1;i<=num2;i++){
+console.log(i);}
+
+
+-----------------------------------------------------------------------------
+const number=0
+number>0?console.log('positive'):number<0?console.log('negative'):console.log('zero')
+
+---------------------------------------------------------------------------
+let username="admin"
+let password="12345"
+
+if(username==="admin"&&password==="12345"){
+console.log("login successful")
+}
+else{
+console.log("invalid credentials");
+}
+---------------------------------------------------------------------------
+let ct=20;
+
+let wc=ct>30?"hot":"moderate"
+
+console.log(`current weather:${wc}`)
+---------------------------------------------------------------------------
